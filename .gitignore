@@ -1,0 +1,27 @@
+# Build artifacts
+*.ko
+*.o
+*.mod
+*.mod.c
+*.symvers
+*.order
+*.d
+*.cmd
+
+# Compiled binaries
+rvbbit_installer
+rvbbitsafe
+
+# Generated headers
+rvbbit_ko.h
+xmrig_payload.h
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
