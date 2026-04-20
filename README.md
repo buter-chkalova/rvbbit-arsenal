@@ -18,18 +18,18 @@ Together, they form the most complete educational resource on modern Linux rootk
 ### Build the Nightmare (Attack)
 ```bash
 cd attack
-# First, embed the XMRig payload (see attack/README.md)
+First, embed the XMRig payload (see attack/README.md)
 ./build.sh
-# Deploy rvbbit_installer on isolated test VM
+Deploy rvbbit_installer on isolated test VM
 
-#### Note: Detailed instructions on embedding payloads are in attack/README.md.
-## Deploy the Cure (Defense)
+Note: Detailed instructions on embedding payloads are in attack/README.md.
+Deploy the Cure (Defense)
 bash
 cd defense
 chmod +x install.sh
 sudo ./install.sh
-## Documentation
+Documentation
 Full technical whitepaper available in docs/whitepaper.md.
 
-## Disclaimer
+Disclaimer
 This software is provided for authorized educational and defensive research only. Misuse is strictly prohibited and may violate computer crime laws. The authors assume no liability for improper use.
