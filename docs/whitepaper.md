@@ -2,11 +2,11 @@
 
 ## Abstract
 
-This document provides a complete technical analysis of Project RVBBIT—a next-generation Linux kernel rootkit—and RvbbitSafe, the countermeasure designed to neutralize it. We detail DKOM-based hiding, eBPF bypass, autonomous worm propagation, and the defense mechanisms that restore system integrity.
+This document provides a complete technical analysis of Project RVBBIT—a classic Linux kernel rootkit- and RvbbitSafe, the countermeasure designed to neutralize it. We detail DKOM-based hiding, eBPF bypass, autonomous worm propagation, and the defense mechanisms that restore system integrity.
 
 ## 1. Introduction
 
-Project RVBBIT represents the current pinnacle of offensive Linux rootkit technology. It combines direct kernel object manipulation (DKOM), system call table hooking, eBPF program load blocking, an embedded cryptocurrency miner, and an autonomous SSH worm. RvbbitSafe is the corresponding defensive framework that detects hidden processes, restores hooked system calls, terminates the miner, and removes all persistence mechanisms.
+Project RVBBIT represents a collection of classic Linux rootkit techniques. It combines direct kernel object manipulation (DKOM), system call table hooking, eBPF program load blocking, an embedded cryptocurrency miner, and an autonomous SSH worm. RvbbitSafe is the corresponding defensive framework that detects hidden processes, restores hooked system calls, terminates the miner, and removes all persistence mechanisms.
 
 This whitepaper serves as both a technical deep-dive and an educational resource for security researchers, penetration testers, and defenders seeking to understand modern kernel-level threats.
 
