@@ -8,10 +8,10 @@
 
 This repository houses two sides of the same coin:
 
-- **`attack/`** – Project RVBBIT, a state-of-the-art Linux kernel rootkit with embedded miner and network worm.
+- **`attack/`** – Project RVBBIT, a classic Linux kernel rootkit with embedded miner and network worm.
 - **`defense/`** – RvbbitSafe, the definitive countermeasure that detects, neutralizes, and removes every trace of RVBBIT.
 
-Together, they form the most complete educational resource on modern Linux rootkit warfare.
+Together, they form the comprehensive educational resource on modern Linux rootkit warfare.
 
 ## Quick Start
 
@@ -33,3 +33,7 @@ Full technical whitepaper available in docs/whitepaper.md.
 
 Disclaimer
 This software is provided for authorized educational and defensive research only. Misuse is strictly prohibited and may violate computer crime laws. The authors assume no liability for improper use.
+
+## Limitations
+
+This is a learning prototype. It uses dated techniques, generates detectable telemetry, and will not evade modern EDRs or hypervisor integrity checks. Not intended for operational use.
