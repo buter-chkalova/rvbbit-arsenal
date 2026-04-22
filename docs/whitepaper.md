@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This document provides a complete technical analysis of Project RVBBIT—a classic Linux kernel rootkit- and RvbbitSafe, the countermeasure designed to neutralize it. We detail DKOM-based hiding, eBPF bypass, autonomous worm propagation, and the defense mechanisms that restore system integrity.
+This document provides a complete technical analysis of Project RVBBIT—a classic Linux kernel rootkit- and RvbbitSafe, the countermeasure designed to neutralize it. We detail DKOM-based hiding, eBPF program load blocking, autonomous worm propagation, and the defense mechanisms that restore system integrity.
 
 ## 1. Introduction
 
@@ -28,7 +28,7 @@ The rootkit locates the `sys_call_table` via `kallsyms` or brute-force memory sc
 - `sys_openat` – used to deny access to hidden files.
 - `sys_bpf` – used to block eBPF program loads, neutralizing modern detection tools.
 
-### 2.3 eBPF Bypass
+### 2.3 Blocking new eBPF loads
 
 By hooking `sys_bpf` and returning `-EPERM` for `BPF_PROG_LOAD` commands, RVBBIT prevents security solutions from attaching eBPF probes that could detect its activities.
 
