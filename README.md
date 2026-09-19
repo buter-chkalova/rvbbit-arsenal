@@ -354,7 +354,7 @@ Arsenal represents the broader research direction.
 
 ---
 
-## Independent coverage of RVBBIT research
+## Independent coverage and external indexing of RVBBIT research
 
 The original RVBBIT project has been independently examined by cybersecurity researchers outside the repository.
 
@@ -374,7 +374,29 @@ A separate Chinese technical article on **CSDN** analyzed Project RVBBIT:
 
 The article independently examines several of the project's kernel-level concealment mechanisms and discusses possible defensive perspectives.
 
-The external interest in the original project contributed to the decision to continue the research through RVBBIT Arsenal rather than simply expand the rootkit proof of concept.
+### Vulners and Sploitus — Security indexing
+
+RVBBIT Arsenal was also indexed by specialized cybersecurity search and intelligence services.
+
+[Vulners — RVBBIT Arsenal](https://vulners.com/kitploit/KITPLOIT%3ATOOLS-GITHUB-BUTER-CHKALOVA-RVBBIT-ARSENAL)
+
+[Sploitus — RVBBIT Arsenal](https://sploitus.com/exploit?id=KITPLOIT%3ATOOLS-GITHUB-BUTER-CHKALOVA-RVBBIT-ARSENAL)
+
+The Vulners record identifies KitPloit as its source, while the matching `KITPLOIT:TOOLS-GITHUB-BUTER-CHKALOVA-RVBBIT-ARSENAL` identifier used by these entries indicates that they belong to the same external indexing chain rather than representing separate technical analyses.
+
+Their presence is useful as evidence that RVBBIT Arsenal has entered broader security-tool and vulnerability/exploit discovery ecosystems, but it should not be presented as an endorsement or independent security review.
+
+Some of these external records preserve an older snapshot of the project and may mention miner or network-worm functionality. Those descriptions do not reflect the current public repository, where potentially harmful functionality has been removed, neutralized, or represented through non-operational research simulations.
+
+### LinkedIn — Community sharing
+
+The original Project RVBBIT was also independently shared on LinkedIn by Yavor Tsakov:
+
+[Project RVBBIT — LinkedIn post by Yavor Tsakov](https://www.linkedin.com/posts/yavor-tsakov-807b16243_github-buter-chkalovaproject-rvbbit-linux-activity-7449048505547096064-Osin)
+
+The post links directly to the original Project RVBBIT repository. It is not a technical analysis, but it represents another example of the research being discovered and circulated independently outside the author's own channels.
+
+Taken together, the independent technical analysis, community sharing, and external security indexing show different forms of outside interest in the original project. That interest contributed to the decision to continue the research through RVBBIT Arsenal rather than simply expand the rootkit proof of concept.
 
 ---
 
